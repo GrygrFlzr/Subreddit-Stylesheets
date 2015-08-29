@@ -379,6 +379,9 @@ padding: 10px 0px 15px 59px;
 background-image:url(%%rinalert%%);
 background-repeat: no-repeat;
 display:inline-block;
+
+/*prevent iOS from scaling the text to cover post information*/
+-webkit-text-size-adjust: 100%;
 }
 
 /*FLAIR BOX MODIFICATION*/
