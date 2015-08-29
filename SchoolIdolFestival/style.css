@@ -579,6 +579,169 @@ float:left;
 .flair-koutaroF2{ background-position: -80px -400px; width: 40px; height: 40px; } 
 .flair-femalpacaF3{ background-position: -80px -440px; width: 40px; height: 40px; } 
 
+/**
+ * Character sorting
+ * Note: normally IDs cannot start with numbers (silly reddit!),
+ *       however using attribute selectors we can target the IDs.
+ *       ul>li is used to increse specificity without !important
+ * TODO: Reset background-color if flexbox not supported
+ */
+
+.flairoptionpane>ul {
+	-webkit-display: flex; /* Safari 8 and below */
+	        display: flex;
+	flex-direction: column;
+}
+
+/* rin */
+ul>li[id="a17a0da6-e100-11e3-b658-12313b073d11"], /*rin*/
+ul>li[id="412115a4-f1d0-11e3-b7e0-12313b01ac51"], /*Yrin*/
+ul>li[id="1d250470-ff3c-11e3-93b0-12313d19304a"], /*Brin*/
+ul>li[id="4d43856e-ff3c-11e3-a595-12313b0e95bd"], /*Wrin*/
+ul>li[id="fcfee1d8-1fa3-11e4-aba9-12313b0a9aea"], /*Arin*/
+ul>li[id="449a8b64-1fa4-11e4-980a-12313b0e944c"], /*Crin*/
+ul>li[id="8446658c-6002-11e4-b3cc-12313d165c22"], /*rinw*/
+ul>li[id="85f11a26-6002-11e4-a78c-12313d165c22"], /*rinw2*/
+ul>li[id="2c8ad832-b700-11e4-9e3a-22000b3882c5"], /*rinF1*/
+ul>li[id="2e88092a-b700-11e4-b714-22000b3617c7"], /*rinF2*/
+ul>li[id="30639412-b700-11e4-b593-22000b3882c5"]{ /*rinF3*/
+	order: 1;
+	background-color: rgba(172,172, 255, 0.25);
+}
+
+/* hanayo */
+ul>li[id="5ba6bc84-ee11-11e3-b6f4-12313d194600"], /*hanayo*/
+ul>li[id="43af9f84-f1d0-11e3-9948-12313b0a9e38"], /*Yhanayo*/
+ul>li[id="4517762a-ff3c-11e3-a26c-12313d19304a"], /*Bhanayo*/
+ul>li[id="63b69e9e-ff3c-11e3-a539-12313d195526"], /*Whanayo*/
+ul>li[id="0d56017e-1fa4-11e4-b73b-12313b0e94e7"], /*Ahanayo*/
+ul>li[id="3529d310-1fa4-11e4-a305-12313d192dde"], /*Chanayo*/
+ul>li[id="89eda68a-6002-11e4-99df-12313d165c22"], /*hanayow*/
+ul>li[id="8d44c034-6002-11e4-9c9e-12313d1a2617"], /*hanayow2*/
+ul>li[id="330366f2-b700-11e4-ae52-22000bb2c11f"], /*hanayoF1*/
+ul>li[id="35265a16-b700-11e4-8366-22000b6d83ce"], /*hanayoF2*/
+ul>li[id="37593312-b700-11e4-b773-22000b3617c7"]{ /*hanayoF3*/
+	order: 2;
+}
+
+/* maki */
+ul>li[id="615f1d60-ee11-11e3-802e-12313b0d46c6"], /*maki*/
+ul>li[id="5dd5302c-f1d0-11e3-85af-12313b01142d"], /*Ymaki*/
+ul>li[id="4a609d3c-ff3c-11e3-bbfd-12313b01142d"], /*Bmaki*/
+ul>li[id="4f6ad540-ff3c-11e3-830c-12313b0a9e38"], /*Wmaki*/
+ul>li[id="0e8d976e-1fa4-11e4-a79f-12313b0a9aea"], /*Amaki*/
+ul>li[id="36d4ee20-1fa4-11e4-8467-12313b0e94e7"], /*Cmaki*/
+ul>li[id="6e3dbeac-6002-11e4-b950-12313d1a2617"], /*makiw*/
+ul>li[id="7017bb88-6002-11e4-85a4-12313d1430e1"], /*makiw2*/
+ul>li[id="241711a2-b700-11e4-88fa-22000bb2c11f"], /*makiF1*/
+ul>li[id="25ec4bbe-b700-11e4-a2e9-22000bb2c11f"], /*makiF2*/
+ul>li[id="2978a8f4-b700-11e4-8d8d-22000b3617c7"]{ /*makiF3*/
+	order: 3;
+	background-color: rgba(172,172, 255, 0.25);
+}
+
+/* umi */
+ul>li[id="582e1e58-ee11-11e3-b80e-12313d053032"], /*umi*/
+ul>li[id="591c5dd0-f1d0-11e3-a823-12313d1955f3"], /*Yumi*/
+ul>li[id="3ee101ae-ff3c-11e3-81de-12313d1955f3"], /*Bumi*/
+ul>li[id="56b10428-ff3c-11e3-98d5-12313b0a9e38"], /*Wumi*/
+ul>li[id="0083d336-1fa4-11e4-94fb-12313b0e805b"], /*Aumi*/
+ul>li[id="4bc1c16e-1fa4-11e4-8aa7-12313b0e7944"], /*Cumi*/
+ul>li[id="66c45906-6002-11e4-bf7b-12313b0e7e3d"], /*umiw*/
+ul>li[id="6a01b910-6002-11e4-baf7-12313d1430e1"], /*umiw2*/
+ul>li[id="4b06ee04-b700-11e4-849a-22000bb2c11f"], /*umiF1*/
+ul>li[id="4d2356aa-b700-11e4-9405-22000b6990b9"], /*umiF2*/
+ul>li[id="4f805600-b700-11e4-a658-22000bc18b85"]{ /*umiF3*/
+	order: 4;
+}
+
+/* honoka */
+ul>li[id="532a569c-ee11-11e3-b87a-12313b073e93"], /*honoka*/
+ul>li[id="4dabbe8c-f1d0-11e3-aba8-12313d224df5"], /*Yhonoka*/
+ul>li[id="3bb3c8b8-ff3c-11e3-b3fd-12313b01142d"], /*Bhonoka*/
+ul>li[id="59e21218-ff3c-11e3-a07b-12313b0a9e38"], /*Whonoka*/
+ul>li[id="1fd061f0-1fa4-11e4-b493-12313d090c52"], /*Ahonoka*/
+ul>li[id="3deddb36-1fa4-11e4-8f25-12313b0e805b"], /*Chonoka*/
+ul>li[id="784cc5d2-6002-11e4-84b3-12313b0e7e3d"], /*honokaw*/
+ul>li[id="6644c874-6013-11e4-82f3-12313b0e7e3d"], /*honokaw2*/
+ul>li[id="42121a12-b700-11e4-a5f5-22000b2b0e8e"], /*honokaF1*/
+ul>li[id="445e3bac-b700-11e4-89bd-22000b6d83ce"], /*honokaF2*/
+ul>li[id="477dcb40-b700-11e4-bec1-22000b6990b9"]{ /*honokaF3*/
+	order: 5;
+	background-color: rgba(172,172, 255, 0.25);
+}
+
+/* kotori */
+ul>li[id="4960c33a-ee11-11e3-951d-12313d187c89"], /*kotori*/
+ul>li[id="4bb51f06-f1d0-11e3-910d-12313b0d46c6"], /*Ykotori*/
+ul>li[id="372b4118-ff3c-11e3-add6-12313b01ac51"], /*Bkotori*/
+ul>li[id="54ca980e-ff3c-11e3-b50d-12313b0e9a90"], /*Wkotori*/
+ul>li[id="fe499f06-1fa3-11e4-8b90-12313b01142d"], /*Akotori*/
+ul>li[id="2b79a818-1fa4-11e4-acd0-12313d15fe6b"], /*Ckotori*/
+ul>li[id="62fba824-6002-11e4-9ee2-12313d165c22"], /*kotoriw*/
+ul>li[id="653dd8f0-6002-11e4-86d1-12313d165c22"], /*kotoriw2*/
+ul>li[id="3a8935aa-b700-11e4-9ec1-22000bc18b85"], /*kotoriF1*/
+ul>li[id="3ccb3980-b700-11e4-9cd7-22000b3617c7"], /*kotoriF2*/
+ul>li[id="3ecc4206-b700-11e4-ae88-22000b3617c7"]{ /*kotoriF3*/
+	order: 6;
+}
+
+/* eli */
+ul>li[id="4f6949e6-ee11-11e3-a35f-12313d194600"], /*eri*/
+ul>li[id="47439308-f1d0-11e3-85af-12313b01142d"], /*Yeli*/
+ul>li[id="3953ad90-ff3c-11e3-90da-12313d1955f3"], /*Beli*/
+ul>li[id="5d7abc68-ff3c-11e3-aec4-12313b0c2183"], /*Weli*/
+ul>li[id="01bfa766-1fa4-11e4-bfe0-12313b01142d"], /*Aeli*/
+ul>li[id="29932fba-1fa4-11e4-8aa7-12313b0e7944"], /*Celi*/
+ul>li[id="72ef6a54-6002-11e4-9c9e-12313d1a2617"], /*eliw*/
+ul>li[id="7452af14-6002-11e4-8c19-12313d051e7d"], /*eliw2*/
+ul>li[id="13242d8a-b700-11e4-ac14-22000b6d8573"], /*eliF1*/
+ul>li[id="174444ae-b700-11e4-acab-22000b6990b9"], /*eliF2*/
+ul>li[id="18fcf0ca-b700-11e4-b8d2-22000b6990b9"]{ /*eliF3*/
+	order: 7;
+	background-color: rgba(172,172, 255, 0.25);
+}
+
+/* nozomi */
+ul>li[id="4d971094-ee11-11e3-a895-12313b073e93"], /*nozomi*/
+ul>li[id="4989ecde-f1d0-11e3-ac82-12313b01ac51"], /*Ynozomi*/
+ul>li[id="34891a7a-ff3c-11e3-860d-12313b0add52"], /*Bnozomi*/
+ul>li[id="51a9165a-ff3c-11e3-b21b-12313b072914"], /*Wnozomi*/
+ul>li[id="04586f30-1fa4-11e4-87ee-12313b0e94e7"], /*Anozomi*/
+ul>li[id="2820d998-1fa4-11e4-90ff-12313d15fe6b"], /*Cnozomi*/
+ul>li[id="9471557a-6002-11e4-a942-12313d1a2617"], /*nozomiw*/
+ul>li[id="96919856-6002-11e4-8258-12313b0e7e3d"], /*nozomiw2*/
+ul>li[id="01a3f14e-b700-11e4-8b26-22000b2b0e8e"], /*nozomiF1*/
+ul>li[id="0730fe72-b700-11e4-bb03-22000bc18b85"], /*nozomiF2*/
+ul>li[id="0a38616e-b700-11e4-9b41-22000bb2c11f"]{ /*nozomiF3*/
+	order: 8;
+}
+
+/* nico */
+ul>li[id="4b36da1e-ee11-11e3-bc55-12313b0e9a90"], /*nico*/
+ul>li[id="52ba86a6-f1d0-11e3-aa8f-12313b0e95bd"], /*Ynico*/
+ul>li[id="427f6332-ff3c-11e3-8c64-12313b0d3999"], /*Bnico*/
+ul>li[id="759e1c36-ff3c-11e3-8abc-12313b0a9e38"], /*Wnico*/
+ul>li[id="08f2c720-1fa4-11e4-8f28-12313d095932"], /*Anico*/
+ul>li[id="3926c8ce-1fa4-11e4-808f-12313b0eb482"], /*Cnico*/
+ul>li[id="7dc17f44-6002-11e4-a0a6-12313b0e7e3d"], /*nicow*/
+ul>li[id="7f7c0656-6002-11e4-afd9-12313d1a2617"], /*nicow2*/
+ul>li[id="1d5a07f2-b700-11e4-be6c-22000bb2c11f"], /*nicoF1*/
+ul>li[id="1f8db622-b700-11e4-9969-22000bc18b85"], /*nicoF2*/
+ul>li[id="218e19da-b700-11e4-80ce-22000bb2c11f"]{ /*nicoF3*/
+	order: 9;
+	background-color: rgba(172,172, 255, 0.25);
+}
+
+/* misc */
+ul>li[id="8c6c374c-f1cf-11e3-878e-12313b011994"], /*alpaca*/
+ul>li[id="160ca660-1fa4-11e4-974a-12313d16a1e9"], /*Akanata*/
+ul>li[id="2d0bfce4-1fa4-11e4-aabe-12313d16a1e9"], /*kotorimom*/
+ul>li[id="52349f82-b700-11e4-acdc-22000bc18b85"], /*normalF1*/
+ul>li[id="55973112-b700-11e4-b714-22000b3617c7"], /*koutaroF2*/
+ul>li[id="5926d148-b700-11e4-aa5b-22000b6d83ce"]{ /*femalpacaF3*/
+	order: 10;
+}
 
 /*Ranks*/
 
