@@ -1538,8 +1538,6 @@ a[href^="#umida"] {
 a[href^="#umida"]:hover {
     -webkit-animation:umi_da 2.5s steps(21);
     -moz-animation:umi_da 2.5s steps(21);
-    -o-animation:umi_da 2.5s steps(21);
-    -ms-animation:umi_da 2.5s steps(21);
     animation:umi_da 2.5s steps(21);
     background:url(%%umida%%) 0 -2100px no-repeat;
 }
@@ -1571,8 +1569,6 @@ a[href^="#eriwat"] {
 a[href^="#eriwat"]:hover {
     -webkit-animation:eri_wat 1.4s steps(15);
     -moz-animation:eri_wat 1.4s steps(15);
-    -o-animation:eri_wat 1.4s steps(15);
-    -ms-animation:eri_wat 1.4s steps(15);
     animation:eri_wat 1.4s steps(15);
     background:url(%%eriwat%%) -3500px 0px no-repeat;
 }
@@ -1604,8 +1600,6 @@ a[href^="#eriwink"] {
 a[href^="#eriwink"]:hover {
     -webkit-animation:eri_wink 1.4s steps(14);
     -moz-animation:eri_wink 1.4s steps(14);
-    -o-animation:eri_wink 1.4s steps(14);
-    -ms-animation:eri_wink 1.4s steps(14);
     animation:eri_wink 1.4s steps(14);
     background:url(%%eriwink%%) -3250px 0px no-repeat;
 }
@@ -1637,8 +1631,6 @@ a[href^="#tsun"] {
 a[href^="#tsun"]:hover {
     -webkit-animation:tsun 5.5s steps(62) ;
     -moz-animation:tsun 5.5s steps(62) ;
-    -o-animation:tsun 6s steps(62) ;
-    -ms-animation:tsun 6s steps(62) ;
     animation:tsun 6s steps(62) ;
     background:url(%%tsunmaki%%) 0 -6767px no-repeat;
 }
@@ -1671,8 +1663,6 @@ a[href^="#headpat"] {
 a[href^="#headpat"]:hover {
     -webkit-animation:headpat 4.2s steps(79) infinite;
     -moz-animation:headpat 4.2s steps(79) infinite;
-    -o-animation:headpat 4.2s steps(79) infinite;
-    -ms-animation:headpat 4.2s steps(79) infinite;
     animation:headpat 4.2s steps(79) infinite;
     background:url(%%headpat%%) 0 -7979px no-repeat;
 }
@@ -1705,8 +1695,6 @@ a[href^="#kawai"] {
 a[href^="#kawai"]:hover {
     -webkit-animation:kawai 1s steps(11) infinite;
     -moz-animation:kawai 1s steps(11) infinite;
-    -o-animation:kawai 1s steps(11) infinite;
-    -ms-animation:kawai 1s steps(11) infinite;
     animation:kawai 1s steps(11) infinite;
     background:url(%%kawai%%) 0 -1111px no-repeat;
 }
@@ -1739,8 +1727,6 @@ a[href^="#niconi"] {
 a[href^="#niconi"]:hover {
     -webkit-animation:niconi 1s steps(13) infinite;
     -moz-animation:niconi 1s steps(13) infinite;
-    -o-animation:niconi 1s steps(13) infinite;
-    -ms-animation:niconi 1s steps(13) infinite;
     animation:niconi 1s steps(13) infinite;
     background:url(%%niconi%%) 0 -1313px no-repeat;
 }
@@ -1773,8 +1759,6 @@ a[href^="#pengi"] {
 a[href^="#pengi"]:hover {
     -webkit-animation:pengi 0.3s steps(2) infinite;
     -moz-animation:pengi 0.3s steps(2) infinite;
-    -o-animation:pengi 0.3s steps(2) infinite;
-    -ms-animation:pengi 0.3s steps(2) infinite;
     animation:pengi 0.3s steps(2) infinite;
     background:url(%%pengi%%) 0 -282px no-repeat;
 }
@@ -1807,8 +1791,6 @@ a[href^="#wink"] {
 a[href^="#wink"]:hover {
     -webkit-animation:wink 0.6s steps(4) infinite;
     -moz-animation:wink 0.6s steps(4) infinite;
-    -o-animation:wink 0.6s steps(4) infinite;
-    -ms-animation:wink 0.6s steps(4) infinite;
     animation:wink 0.6s steps(4) infinite;
     background:url(%%wink%%) 0 0 no-repeat;
 }
@@ -1841,8 +1823,6 @@ a[href^="#rekt"] {
 a[href^="#rekt"]:hover {
     -webkit-animation:rekt 1.4s steps(33) infinite;
     -moz-animation:rekt 1.4s steps(33) infinite;
-    -o-animation:rekt 1.4s steps(33) infinite;
-    -ms-animation:rekt 1.4s steps(33) infinite;
     animation:rekt 1.4s steps(33) infinite;
     background:url(%%rekt%%) 0 -3300px no-repeat;
 }
@@ -1875,8 +1855,6 @@ a[href^="#iyada"] {
 a[href^="#iyada"]:hover {
     -webkit-animation:iyada 2.4s steps(23) infinite;
     -moz-animation:iyada 2.4s steps(23) infinite;
-    -o-animation:iyada 2.4s steps(23) infinite;
-    -ms-animation:iyada 2.4s steps(23) infinite;
     animation:iyada 2.4s steps(23) infinite;
     background:url(%%iyada%%) 0 -2300px no-repeat;
 }
@@ -1909,8 +1887,6 @@ a[href^="#rinya"] {
 a[href^="#rinya"]:hover {
     -webkit-animation:rinya 1.6s steps(15);
     -moz-animation:rinya 1.6s steps(15);
-    -o-animation:rinya 1.6s steps(15);
-    -ms-animation:rinya 1.6s steps(15);
     animation:rinya 1.6s steps(15);
     background:url(%%rinya%%) 0 0 no-repeat;
 }
@@ -1943,8 +1919,6 @@ a[href^="#nope"] {
 a[href^="#nope"]:hover {
     -webkit-animation:nope 1.5s steps(17);
     -moz-animation:nope 1.5s steps(17);
-    -o-animation:nope 1.5s steps(17);
-    -ms-animation:nope 1.5s steps(17);
     animation:nope 1.5s steps(17);
     background:url(%%nope%%) 0 0 no-repeat;
 }
@@ -1977,8 +1951,6 @@ a[href^="#baka"] {
 a[href^="#baka"]:hover {
     -webkit-animation:baka 0.4s steps(3) infinite;
     -moz-animation:baka 0.4s steps(3) infinite;
-    -o-animation:baka 0.4s steps(3) infinite;
-    -ms-animation:baka 0.4s steps(3) infinite;
     animation:baka 0.4s steps(3) infinite;
     background:url(%%baka%%) 0 0 no-repeat;
 }
@@ -2012,8 +1984,6 @@ a[href^="#fine"] {
 a[href^="#fine"]:hover {
     -webkit-animation:fine 3.4s steps(30) ;
     -moz-animation:fine 3.4s steps(30) ;
-    -o-animation:fine 3.4s steps(30) ;
-    -ms-animation:fine 3.4s steps(30) ;
     animation:fine 3.4s steps(30) ;
     background:url(%%fine%%) 0 -500px no-repeat;
 }
@@ -2046,8 +2016,6 @@ a[href^="#haa"] {
 a[href^="#haa"]:hover {
     -webkit-animation:haa 1.4s steps(42) ;
     -moz-animation:haa 1.4s steps(42) ;
-    -o-animation:haa 1.4s steps(42) ;
-    -ms-animation:haa 1.4s steps(42) ;
     animation:haa 1.4s steps(42) ;
     background:url(%%haa%%) 0 0 no-repeat;
 }
@@ -2080,8 +2048,6 @@ a[href^="#waa"] {
 a[href^="#waa"]:hover {
     -webkit-animation:waa 0.8s steps(7) infinite;
     -moz-animation:waa 0.8s steps(7) infinite;
-    -o-animation:waa 0.8s steps(7) infinite;
-    -ms-animation:waa 0.8s steps(7) infinite;
     animation:waa 0.8s steps(7) infinite;
     background:url(%%waa%%) 0 0 no-repeat;
 }
@@ -2114,8 +2080,6 @@ a[href^="#flick"] {
 a[href^="#flick"]:hover {
     -webkit-animation:flick 1.5s steps(18) infinite;
     -moz-animation:flick 1.5s steps(18) infinite;
-    -o-animation:flick 1.5s steps(18) infinite;
-    -ms-animation:flick 1.5s steps(18) infinite;
     animation:flick 1.5s steps(18) infinite;
     background:url(%%flick%%) 0 0 no-repeat;
 }
@@ -2148,8 +2112,6 @@ a[href^="#clap"] {
 a[href^="#clap"]:hover {
     -webkit-animation:clap 0.3s steps(7) infinite;
     -moz-animation:clap 0.3s steps(7) infinite;
-    -o-animation:clap 0.3s steps(7) infinite;
-    -ms-animation:clap 0.3s steps(7) infinite;
     animation:clap 0.3s steps(7) infinite;
     background:url(%%clap%%) 0 0 no-repeat;
 }
@@ -2182,8 +2144,6 @@ a[href^="#ikinya"] {
 a[href^="#ikinya"]:hover {
     -webkit-animation:ikinya 2s steps(18) ;
     -moz-animation:ikinya 2s steps(18) ;
-    -o-animation:ikinya 2s steps(18) ;
-    -ms-animation:ikinya 2s steps(18) ;
     animation:ikinya 2s steps(18) ;
     background:url(%%ikinya%%) 0 0 no-repeat;
 }
@@ -2217,8 +2177,6 @@ a[href^="#ara"] {
 a[href^="#ara"]:hover {
     -webkit-animation:ara 0.4s steps(11) infinite;
     -moz-animation:ara 0.4s steps(11) infinite;
-    -o-animation:ara 0.4s steps(11) infinite;
-    -ms-animation:ara 0.4s steps(11) infinite;
     animation:ara 0.4s steps(11) infinite;
     background:url(%%ara%%) 0 -100px no-repeat;
 }
@@ -2253,8 +2211,6 @@ a[href^="#nrekt"] {
 a[href^="#nrekt"]:hover {
     -webkit-animation:nrekt 2s steps(19) infinite;
     -moz-animation:nrekt 2s steps(19) infinite;
-    -o-animation:nrekt 2s steps(19) infinite;
-    -ms-animation:nrekt 2s steps(19) infinite;
     animation:nrekt 2s steps(19) infinite;
     background:url(%%nrekt%%) 0 0 no-repeat;
 }
@@ -2287,8 +2243,6 @@ a[href^="#bonk"] {
 a[href^="#bonk"]:hover {
     -webkit-animation:gochi 1s steps(14) ;
     -moz-animation:gochi 1s steps(14) ;
-    -o-animation:gochi 1s steps(14) ;
-    -ms-animation:gochi 1s steps(14) ;
     animation:gochi 1s steps(14) ;
     background:url(%%gochi%%) 0 0 no-repeat;
 }
@@ -2321,8 +2275,6 @@ a[href^="#dere"] {
 a[href^="#dere"]:hover {
     -webkit-animation:dere 1.3s steps(14) infinite;
     -moz-animation:dere 1.3s steps(14) infinite;
-    -o-animation:dere 1.3s steps(14) infinite;
-    -ms-animation:dere 1.3s steps(14) infinite;
     animation:dere 1.3s steps(14) infinite;
     background:url(%%dere%%) 0 0 no-repeat;
 }
@@ -2355,8 +2307,6 @@ a[href^="#pillow"] {
 a[href^="#pillow"]:hover {
     -webkit-animation:pillow 0.7s steps(5) ;
     -moz-animation:pillow 0.7s steps(5) ;
-    -o-animation:pillow 0.7s steps(5) ;
-    -ms-animation:pillow 0.7s steps(5) ;
     animation:pillow 0.7s steps(5) ;
     background:url(%%pillow%%) 0 0 no-repeat;
 }
