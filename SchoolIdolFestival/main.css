@@ -1521,14 +1521,6 @@ a[href="#huhu"] {
     from { background-position:0 0; }
     to { background-position:0 -2100px; }
 }
-@-o-keyframes umi_da {
-    from { background-position:0 0; }
-    to { background-position:0 -2100px; }
-}
-@-ms-keyframes umi_da {
-    from { background-position:0 0; }
-    to { background-position:0 -2100px; }
-}
 @keyframes umi_da {
     from { background-position:0 0; }
     to { background-position:0 -2100px; }
@@ -1559,14 +1551,6 @@ a[href^="#umida"]:hover {
     to { background-position:-3750px 0; }
 }
 @-moz-keyframes eri_wat {
-    from { background-position:0 0; }
-    to { background-position:-3750px 0; }
-}
-@-o-keyframes eri_wat {
-    from { background-position:0 0; }
-    to { background-position:-3750px 0; }
-}
-@-ms-keyframes eri_wat {
     from { background-position:0 0; }
     to { background-position:-3750px 0; }
 }
@@ -1603,14 +1587,6 @@ a[href^="#eriwat"]:hover {
     from { background-position:0 0; }
     to { background-position:-3500px 0; }
 }
-@-o-keyframes eri_wink {
-    from { background-position:0 0; }
-    to { background-position:-3500px 0; }
-}
-@-ms-keyframes eri_wink {
-    from { background-position:0 0; }
-    to { background-position:-3500px 0; }
-}
 @keyframes eri_wink {
     from { background-position:0 0; }
     to { background-position:-3500px 0; }
@@ -1641,14 +1617,6 @@ a[href^="#eriwink"]:hover {
     to { background-position:0 -6767px; }
 }
 @-moz-keyframes tsun {
-    from { background-position:0 -505px; }
-    to { background-position:0 -6767px; }
-}
-@-o-keyframes tsun {
-    from { background-position:0 -505px; }
-    to { background-position:0 -6767px; }
-}
-@-ms-keyframes tsun {
     from { background-position:0 -505px; }
     to { background-position:0 -6767px; }
 }
@@ -1686,14 +1654,6 @@ a[href^="#tsun"]:hover {
     from { background-position:0 -7979px; }
     to { background-position:0 0; }
 }
-@-o-keyframes headpat {
-    from { background-position:0 -7979px; }
-    to { background-position:0 0; }
-}
-@-ms-keyframes headpat {
-    from { background-position:0 -7979px; }
-    to { background-position:0 0; }
-}
 @keyframes headpat {
     from { background-position:0 -7979px; }
     to { background-position:0 0; }
@@ -1725,14 +1685,6 @@ a[href^="#headpat"]:hover {
     to { background-position:0 0; }
 }
 @-moz-keyframes kawai {
-    from { background-position:0 -1111px; }
-    to { background-position:0 0; }
-}
-@-o-keyframes kawai {
-    from { background-position:0 -1111px; }
-    to { background-position:0 0; }
-}
-@-ms-keyframes kawai {
     from { background-position:0 -1111px; }
     to { background-position:0 0; }
 }
@@ -1770,14 +1722,6 @@ a[href^="#kawai"]:hover {
     from { background-position:0 -1313px; }
     to { background-position:0 0; }
 }
-@-o-keyframes niconi {
-    from { background-position:0 -1313px; }
-    to { background-position:0 0; }
-}
-@-ms-keyframes niconi {
-    from { background-position:0 -1313px; }
-    to { background-position:0 0; }
-}
 @keyframes niconi {
     from { background-position:0 -1313px; }
     to { background-position:0 0; }
@@ -1809,14 +1753,6 @@ a[href^="#niconi"]:hover {
     to { background-position:0 0; }
 }
 @-moz-keyframes pengi {
-    from { background-position:0 -282px; }
-    to { background-position:0 0; }
-}
-@-o-keyframes pengi {
-    from { background-position:0 -282px; }
-    to { background-position:0 0; }
-}
-@-ms-keyframes pengi {
     from { background-position:0 -282px; }
     to { background-position:0 0; }
 }
@@ -1854,14 +1790,6 @@ a[href^="#pengi"]:hover {
     from { background-position:0 0; }
     to { background-position:0 -400px; }
 }
-@-o-keyframes wink {
-    from { background-position:0 0; }
-    to { background-position:0 -400px; }
-}
-@-ms-keyframes wink {
-    from { background-position:0 0; }
-    to { background-position:0 -400px; }
-}
 @keyframes wink {
     from { background-position:0 0; }
     to { background-position:0 -400px; }
@@ -1893,14 +1821,6 @@ a[href^="#wink"]:hover {
     to { background-position:0 0; }
 }
 @-moz-keyframes rekt {
-    from { background-position:0 -3300px; }
-    to { background-position:0 0; }
-}
-@-o-keyframes rekt {
-    from { background-position:0 -3300px; }
-    to { background-position:0 0; }
-}
-@-ms-keyframes rekt {
     from { background-position:0 -3300px; }
     to { background-position:0 0; }
 }
@@ -1938,14 +1858,6 @@ a[href^="#rekt"]:hover {
     from { background-position:0 -2300px; }
     to { background-position:0 0; }
 }
-@-o-keyframes iyada {
-    from { background-position:0 -2300px; }
-    to { background-position:0 0; }
-}
-@-ms-keyframes iyada {
-    from { background-position:0 -2300px; }
-    to { background-position:0 0; }
-}
 @keyframes iyada {
     from { background-position:0 -2300px; }
     to { background-position:0 0; }
@@ -1977,14 +1889,6 @@ a[href^="#iyada"]:hover {
     to { background-position:0 0; }
 }
 @-moz-keyframes rinya {
-    from { background-position:0 -1500px; }
-    to { background-position:0 0; }
-}
-@-o-keyframes rinya {
-    from { background-position:0 -1500px; }
-    to { background-position:0 0; }
-}
-@-ms-keyframes rinya {
     from { background-position:0 -1500px; }
     to { background-position:0 0; }
 }
@@ -2022,14 +1926,6 @@ a[href^="#rinya"]:hover {
     from { background-position:0 -1700px; }
     to { background-position:0 0; }
 }
-@-o-keyframes nope {
-    from { background-position:0 -1700px; }
-    to { background-position:0 0; }
-}
-@-ms-keyframes nope {
-    from { background-position:0 -1700px; }
-    to { background-position:0 0; }
-}
 @keyframes nope {
     from { background-position:0 -1700px; }
     to { background-position:0 0; }
@@ -2061,14 +1957,6 @@ a[href^="#nope"]:hover {
     to { background-position:0 0; }
 }
 @-moz-keyframes baka {
-    from { background-position:0 -300px; }
-    to { background-position:0 0; }
-}
-@-o-keyframes baka {
-    from { background-position:0 -300px; }
-    to { background-position:0 0; }
-}
-@-ms-keyframes baka {
     from { background-position:0 -300px; }
     to { background-position:0 0; }
 }
@@ -2107,14 +1995,6 @@ a[href^="#baka"]:hover {
     from { background-position:0 -3000px; }
     to { background-position:0 0; }
 }
-@-o-keyframes fine {
-    from { background-position:0 -3000px; }
-    to { background-position:0 0; }
-}
-@-ms-keyframes fine {
-    from { background-position:0 -3000px; }
-    to { background-position:0 0; }
-}
 @keyframes fine {
     from { background-position:0 -3000px; }
     to { background-position:0 0; }
@@ -2146,14 +2026,6 @@ a[href^="#fine"]:hover {
     to { background-position:0 0; }
 }
 @-moz-keyframes haa {
-    from { background-position:0 -4200px; }
-    to { background-position:0 0; }
-}
-@-o-keyframes haa {
-    from { background-position:0 -4200px; }
-    to { background-position:0 0; }
-}
-@-ms-keyframes haa {
     from { background-position:0 -4200px; }
     to { background-position:0 0; }
 }
@@ -2191,14 +2063,6 @@ a[href^="#haa"]:hover {
     from { background-position:0 -1890px; }
     to { background-position:0 0; }
 }
-@-o-keyframes waa {
-    from { background-position:0 -1890px; }
-    to { background-position:0 0; }
-}
-@-ms-keyframes waa {
-    from { background-position:0 -1890px; }
-    to { background-position:0 0; }
-}
 @keyframes waa {
     from { background-position:0 -1890px; }
     to { background-position:0 0; }
@@ -2230,14 +2094,6 @@ a[href^="#waa"]:hover {
     to { background-position:0 0; }
 }
 @-moz-keyframes flick {
-    from { background-position:0 -1800px; }
-    to { background-position:0 0; }
-}
-@-o-keyframes flick {
-    from { background-position:0 -1800px; }
-    to { background-position:0 0; }
-}
-@-ms-keyframes flick {
     from { background-position:0 -1800px; }
     to { background-position:0 0; }
 }
@@ -2275,14 +2131,6 @@ a[href^="#flick"]:hover {
     from { background-position:0 -1225px; }
     to { background-position:0 0; }
 }
-@-o-keyframes clap {
-    from { background-position:0 -1225px; }
-    to { background-position:0 0; }
-}
-@-ms-keyframes clap {
-    from { background-position:0 -1225px; }
-    to { background-position:0 0; }
-}
 @keyframes clap {
     from { background-position:0 -1225px; }
     to { background-position:0 0; }
@@ -2314,14 +2162,6 @@ a[href^="#clap"]:hover {
     to { background-position:0 0; }
 }
 @-moz-keyframes ikinya {
-    from { background-position:0 -1800px; }
-    to { background-position:0 0; }
-}
-@-o-keyframes ikinya {
-    from { background-position:0 -1800px; }
-    to { background-position:0 0; }
-}
-@-ms-keyframes ikinya {
     from { background-position:0 -1800px; }
     to { background-position:0 0; }
 }
@@ -2357,14 +2197,6 @@ a[href^="#ikinya"]:hover {
     to { background-position:0 0; }
 }
 @-moz-keyframes ara {
-    from { background-position:0 -100px; }
-    to { background-position:0 0; }
-}
-@-o-keyframes ara {
-    from { background-position:0 -100px; }
-    to { background-position:0 0; }
-}
-@-ms-keyframes ara {
     from { background-position:0 -100px; }
     to { background-position:0 0; }
 }
@@ -2404,14 +2236,6 @@ a[href^="#ara"]:hover {
     from { background-position:0 -1900px; }
     to { background-position:0 0; }
 }
-@-o-keyframes nrekt {
-    from { background-position:0 -1900px; }
-    to { background-position:0 0; }
-}
-@-ms-keyframes nrekt {
-    from { background-position:0 -1900px; }
-    to { background-position:0 0; }
-}
 @keyframes nrekt {
     from { background-position:0 -1900px; }
     to { background-position:0 0; }
@@ -2443,14 +2267,6 @@ a[href^="#nrekt"]:hover {
     to { background-position:0 0; }
 }
 @-moz-keyframes gochi {
-    from { background-position:0 -1400px; }
-    to { background-position:0 0; }
-}
-@-o-keyframes gochi {
-    from { background-position:0 -1400px; }
-    to { background-position:0 0; }
-}
-@-ms-keyframes gochi {
     from { background-position:0 -1400px; }
     to { background-position:0 0; }
 }
@@ -2488,14 +2304,6 @@ a[href^="#bonk"]:hover {
     from { background-position:0 -1400px; }
     to { background-position:0 0; }
 }
-@-o-keyframes dere {
-    from { background-position:0 -1400px; }
-    to { background-position:0 0; }
-}
-@-ms-keyframes dere {
-    from { background-position:0 -1400px; }
-    to { background-position:0 0; }
-}
 @keyframes dere {
     from { background-position:0 -1400px; }
     to { background-position:0 0; }
@@ -2527,14 +2335,6 @@ a[href^="#dere"]:hover {
     to { background-position:0 0; }
 }
 @-moz-keyframes pillow {
-    from { background-position:0 -500px; }
-    to { background-position:0 0; }
-}
-@-o-keyframes pillow {
-    from { background-position:0 -500px; }
-    to { background-position:0 0; }
-}
-@-ms-keyframes pillow {
     from { background-position:0 -500px; }
     to { background-position:0 0; }
 }
