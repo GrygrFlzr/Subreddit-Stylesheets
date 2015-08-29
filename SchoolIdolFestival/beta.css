@@ -25,6 +25,19 @@ Spoiler Tag
 
 */
 
+/* beta tag to differentiate from main sub */
+#header-bottom-left>.pagename:after {
+    position: absolute;
+    left: 320px;
+    top: -40px;
+    
+    content:"BETA!";
+    color: white;
+    font-family: verdana, arial, helvetica, sans-serif;
+    font-size: 20px;
+    text-shadow: 0 0 7px #2154a3;
+}
+
 /*snowbox*/
 
 @-webkit-keyframes snow {
