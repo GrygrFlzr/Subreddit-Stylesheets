@@ -188,7 +188,8 @@ border: 0 none;
 .tabmenu li.selected a {
 background-color: white;
 border: 1px solid #CACACA;
-border-radius: 5px;
+border-bottom: none;
+border-radius: 5px 5px 0 0;
 padding: 8px 6px 8px 6px;
 }
 
