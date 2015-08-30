@@ -1,0 +1,49 @@
+/**
+ * Designed for drop-in into current CSS without changes, optimize before use
+ * TODO: Look presentable on browsers that don't support border-image
+ *       Look better on narrow-ish screens
+ *       Fix white lines
+ */
+.side .md>blockquote:nth-of-type(1)>h2:nth-of-type(n) {
+    background-color: transparent;
+	border-color: white;
+    border-width: 12px;
+    border-image-source: url(%%sif-button-out%%);
+    border-image-slice: 24 fill;
+    border-image-repeat: repeat;
+    box-shadow: none;
+    border-radius: 0;
+    padding: 0 5px;
+    overflow: visible;
+    padding-bottom: 0;
+    height: 50px;
+}
+.side .md>blockquote:nth-of-type(1)>h2:nth-of-type(2) {
+    position: initial;
+}
+.side .md>blockquote:nth-of-type(1)>h2:nth-of-type(-n+2) {
+    width: 12.5%;
+}
+.side .md>blockquote:nth-of-type(1)>h2>a:hover {
+    opacity: .75;
+    text-decoration: none;
+}
+.side .md>blockquote:nth-of-type(1)>h2>a {
+    background-color: transparent;
+	border-color: white;
+    border-width: 7px;
+    border-image-source: url(%%sif-button-in%%);
+    border-image-slice: 15 fill;
+    border-image-repeat: repeat;
+    color: white;
+    
+    position: relative;
+    top: -8px;
+    left: -13px;
+    width: 100%;
+    height: 16px;
+    line-height: 16px;
+    padding-left: 6px;
+    padding-right: 4px;
+    margin-bottom: -9px;
+}
