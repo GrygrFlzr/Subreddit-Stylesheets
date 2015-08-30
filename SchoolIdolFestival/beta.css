@@ -591,9 +591,10 @@ float:left;
  */
 
 .flairoptionpane>ul {
-	-webkit-display: flex; /* Safari 8 and below */
-	        display: flex;
-	flex-direction: column;
+	display: -webkit-flex; /* Safari 8 and below */
+	display:         flex;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
 }
 
 /* rin */
@@ -608,7 +609,8 @@ ul>li[id="5e92bd26-4dfb-11e5-a368-0e60d8112001"], /*rinw2*/
 ul>li[id="9592708c-4dfb-11e5-8f02-0ebe57f993df"], /*rinF1*/
 ul>li[id="97ef3054-4dfb-11e5-944b-0ecbbd00e599"], /*rinF2*/
 ul>li[id="99ce84e2-4dfb-11e5-a97e-0e49b4de90e1"]{ /*rinF3*/
-	order: 1;
+    -webkit-order: 1;
+	        order: 1;
 	background-color: rgba(172,172, 255, 0.25);
 }
 
@@ -624,7 +626,8 @@ ul>li[id="65edfea0-4dfb-11e5-bc52-0ebee8e6e23b"], /*hanayow2*/
 ul>li[id="9c74f28a-4dfb-11e5-8c3d-0ec131dbf691"], /*hanayoF1*/
 ul>li[id="9e84163c-4dfb-11e5-8307-0e707a1ba6df"], /*hanayoF2*/
 ul>li[id="a079bf78-4dfb-11e5-b327-0e707a1ba6df"]{ /*hanayoF3*/
-	order: 2;
+	-webkit-order: 2;
+	        order: 2;
 }
 
 /* maki */
@@ -639,7 +642,8 @@ ul>li[id="4e7279fe-4dfb-11e5-ab24-0e8d84207ba5"], /*makiw2*/
 ul>li[id="8d93e92e-4dfb-11e5-9828-0e966b9f72ab"], /*makiF1*/
 ul>li[id="8f62704a-4dfb-11e5-94b6-0ebee8e6e23b"], /*makiF2*/
 ul>li[id="9255efde-4dfb-11e5-a1e1-0ef6ca535a4d"]{ /*makiF3*/
-	order: 3;
+	-webkit-order: 3;
+	        order: 3;
 	background-color: rgba(172,172, 255, 0.25);
 }
 
@@ -655,7 +659,8 @@ ul>li[id="48ca3492-4dfb-11e5-838a-0e610b6925bb"], /*umiw2*/
 ul>li[id="e888f6da-4dfb-11e5-9c3a-0ef6ca535a4d"], /*umiF1*/
 ul>li[id="ea02441c-4dfb-11e5-900f-0ecbbd00e599"], /*umiF2*/
 ul>li[id="eb76615c-4dfb-11e5-a212-0e8d84207ba5"]{ /*umiF3*/
-	order: 4;
+	-webkit-order: 4;
+	        order: 4;
 }
 
 /* honoka */
@@ -670,7 +675,8 @@ ul>li[id="6f9c9c54-4dfb-11e5-a75c-0e966b9f72ab"], /*honokaw2*/
 ul>li[id="e2a27ea8-4dfb-11e5-9ab0-0ec131dbf691"], /*honokaF1*/
 ul>li[id="e4578734-4dfb-11e5-bee5-0e966b9f72ab"], /*honokaF2*/
 ul>li[id="e67d7d34-4dfb-11e5-8961-0e707a1ba6df"]{ /*honokaF3*/
-	order: 5;
+	-webkit-order: 5;
+	        order: 5;
 	background-color: rgba(172,172, 255, 0.25);
 }
 
@@ -686,7 +692,8 @@ ul>li[id="445dd7c4-4dfb-11e5-aa8c-0e184320b869"], /*kotoriw2*/
 ul>li[id="d6804f42-4dfb-11e5-b258-0e8ad82823eb"], /*kotoriF1*/
 ul>li[id="d8d9a8d8-4dfb-11e5-9bae-0e5ca32a3025"], /*kotoriF2*/
 ul>li[id="db196d40-4dfb-11e5-93d2-0e3f27028b2f"]{ /*kotoriF3*/
-	order: 6;
+	-webkit-order: 6;
+	        order: 6;
 }
 
 /* eli */
@@ -701,7 +708,8 @@ ul>li[id="5176711e-4dfb-11e5-8023-0e91dded7ed3"], /*eliw2*/
 ul>li[id="804d3eaa-4dfb-11e5-aa8c-0e184320b869"], /*eliF1*/
 ul>li[id="81c5d40e-4dfb-11e5-8c7f-0ec07e44b9c3"], /*eliF2*/
 ul>li[id="83a263aa-4dfb-11e5-a9fb-0e184320b869"]{ /*eliF3*/
-	order: 7;
+	-webkit-order: 7;
+	        order: 7;
 	background-color: rgba(172,172, 255, 0.25);
 }
 
@@ -717,7 +725,8 @@ ul>li[id="6ab6d056-4dfb-11e5-b327-0e707a1ba6df"], /*nozomiw2*/
 ul>li[id="781f1884-4dfb-11e5-b903-0ef6ca535a4d"], /*nozomiF1*/
 ul>li[id="7aa65b30-4dfb-11e5-9096-0ebee8e6e23b"], /*nozomiF2*/
 ul>li[id="7cf8ab90-4dfb-11e5-abb8-0e91dded7ed3"]{ /*nozomiF3*/
-	order: 8;
+	-webkit-order: 8;
+	        order: 8;
 }
 
 /* nico */
@@ -732,7 +741,8 @@ ul>li[id="5b856a34-4dfb-11e5-bd2d-0ebee8e6e23b"], /*nicow2*/
 ul>li[id="8676ec90-4dfb-11e5-9347-0e610b6925bb"], /*nicoF1*/
 ul>li[id="88e79ff6-4dfb-11e5-b547-0ecbbd00e599"], /*nicoF2*/
 ul>li[id="8ac61424-4dfb-11e5-8fa9-0ee61c357d3b"]{ /*nicoF3*/
-	order: 9;
+	-webkit-order: 9;
+	        order: 9;
 	background-color: rgba(172,172, 255, 0.25);
 }
 
@@ -743,7 +753,8 @@ ul>li[id="335690f6-4dfb-11e5-a0f0-0e707a1ba6df"], /*kotorimom*/
 ul>li[id="ef53eac4-4dfb-11e5-8fe6-0e707a1ba6df"], /*normalF1*/
 ul>li[id="f337d150-4dfb-11e5-a872-0e966b9f72ab"], /*koutaroF2*/
 ul>li[id="f7670b06-4dfb-11e5-af5e-0ec07e44b9c3"]{ /*femalpacaF3*/
-	order: 10;
+	-webkit-order: 10;
+	        order: 10;
 }
 
 
