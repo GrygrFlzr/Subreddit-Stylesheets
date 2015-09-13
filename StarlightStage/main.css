@@ -1,0 +1,77 @@
+#header {
+    border: 0;
+}
+#header-img {
+    display: block;
+    margin: 0 auto -20px auto;
+    max-width: 850px;
+    width: 100%;
+    max-height: 200px;
+    height: auto;
+}
+#header-bottom-left {
+    background-color: #010c2a;
+    overflow-y: hidden;
+}
+.pagename, .pagename>a {
+    color: white;
+}
+.tabmenu li a {
+    background-color: #48a2e1;
+    background-color: rgba(72,162,225,.85);
+    color: white;
+    border-radius: 4px 4px 0 0;
+    font-weight: normal;
+}
+#sr-header-area {
+    margin-bottom: -18px;
+}
+#sr-header-area .width-clip {
+    background-color: #48a2e1;
+    background-color: rgba(72,162,225,.95);
+    box-shadow: 0 0 4px black;
+}
+#sr-header-area a,
+#sr-header-area span,
+#sr-header-area .selected a {
+    color: white;
+}
+#sr-more-link {
+    background-color: #48a2e1;
+}
+
+.titlebox>.subscribers>.number:after {
+    content: " Producers";
+}
+.titlebox>.subscribers>.word {
+    display: none;
+}
+
+/* Spoiler Code
+ * Usage: [spoiler](#s "up up down down left right left right bee ayy")
+ */
+a[href="#s"],
+.md p > a[href="#s"] {
+    text-decoration: none !important;
+    cursor: default;
+    background: #000;
+    color: #fff !important;
+    display: inline-block;
+}
+a[href="#s"]::after,
+.md p > a[href="#s"]::after {
+    content: attr(title);
+    color: #000;
+    padding: 0 0.5em;
+    visibility: visible;
+}
+a[href="#s"]:hover,
+.md p > a[href="#s"]:hover {
+    color: #fff !important;
+}
+a[href="#s"]:hover::after,
+a[href="#s"]:active::after,
+.md p > a[href="#s"]:hover::after,
+.md p > a[href="#s"]:active::after {
+    color: #fff;
+}
