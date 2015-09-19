@@ -47,9 +47,11 @@
     display: none;
 }
 
+
 /* Spoiler Code
  * Usage: [spoiler](#s "up up down down left right left right bee ayy")
  */
+
 a[href="#s"],
 .md p > a[href="#s"] {
     text-decoration: none !important;
@@ -74,4 +76,38 @@ a[href="#s"]:active::after,
 .md p > a[href="#s"]:hover::after,
 .md p > a[href="#s"]:active::after {
     color: #fff;
+}
+
+
+/*Announcement bar*/
+
+div.content {
+margin-top:60px;
+}
+.titlebox form {
+
+position: static }
+.side h3:nth-of-type(1) {
+
+/*this code positions the sticky*/
+
+position:absolute;
+display: block;
+top:200px;
+left:40px;
+font-size:14px!important;
+
+/*this code styles the sticky*/
+
+color: #555555;
+text-align: left;
+/*margin: 15px 15px 0px 15px;*/
+margin-top: 15px;
+border-radius: 8px;
+width: 60%;
+padding: 0; /*10px 0px 15px 59px*/
+
+
+/*prevent iOS from scaling the text to cover post information*/
+-webkit-text-size-adjust: 100%;
 }
