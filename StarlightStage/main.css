@@ -1,21 +1,44 @@
+/* Header */
 #header {
     border: 0;
+    height: 200px;
+    background-color: #010c2a;
+    background-image: url(%%banner%%);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right center;
+}
+@media (max-width: 860px) {
+    #header {
+        background-size: cover;
+        background-position: center;
+    }
 }
 #header-img {
-    display: block;
-    margin: 0 auto -20px auto;
-    max-width: 850px;
-    width: 100%;
-    max-height: 200px;
-    height: auto;
+    height: 195px;
 }
-#header-bottom-left {
-    background-color: #010c2a;
-    overflow-y: hidden;
+.pagename {
+    position: absolute;
+    top: 30px;
+    height: 140px;
+    width: 480px;
+    
+    background-image: url(%%logo%%);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left center;
+    
+    font-size: 0;
 }
-.pagename, .pagename>a {
-    color: white;
+.pagename>a {
+    position: absolute;
+    z-index: 100;
+    
+    height: 140px;
+    width: 450px;
 }
+
+/* Categories */
 .tabmenu li a {
     background-color: #48a2e1;
     background-color: rgba(72,162,225,.85);
@@ -23,10 +46,11 @@
     border-radius: 4px 4px 0 0;
     font-weight: normal;
 }
+
+/* Top bar */
 #sr-header-area {
     margin-bottom: -18px;
-}
-#sr-header-area .width-clip {
+    border: 0;
     background-color: #48a2e1;
     background-color: rgba(72,162,225,.95);
     box-shadow: 0 0 4px black;
@@ -39,7 +63,22 @@
 #sr-more-link {
     background-color: #48a2e1;
 }
+div#RESShortcutsEditContainer {
+    background-color: transparent;
+}
+#RESShortcutsEditContainer>div {
+    background-color: transparent;
+    color: white;
+}
 
+/* Userbar */
+div#header-bottom-right {
+    /* Fix RES hard-coding dumb values */
+    top: inherit;
+    bottom: 0;
+}
+
+/* Sidebar */
 .titlebox>.subscribers>.number:after {
     content: " Producers";
 }
@@ -79,35 +118,64 @@ a[href="#s"]:active::after,
 }
 
 
-/*Announcement bar*/
-
+/* Announcement bar */
 div.content {
-margin-top:60px;
+    margin-top:60px;
 }
 .titlebox form {
-
-position: static }
-.side h3:nth-of-type(1) {
-
-/*this code positions the sticky*/
-
-position:absolute;
-display: block;
-top:200px;
-left:40px;
-font-size:14px!important;
-
-/*this code styles the sticky*/
-
-color: #555555;
-text-align: left;
-/*margin: 15px 15px 0px 15px;*/
-margin-top: 15px;
-border-radius: 8px;
-width: 60%;
-padding: 0; /*10px 0px 15px 59px*/
-
-
-/*prevent iOS from scaling the text to cover post information*/
--webkit-text-size-adjust: 100%;
+    position: static;
 }
+.side h3:nth-of-type(1) {
+    /*this code positions the sticky*/
+    position: absolute;
+    display: block;
+    top: 200px;
+    left: 40px;
+    font-size: 14px!important;
+    
+    /*this code styles the sticky*/
+    color: #555555;
+    text-align: left;
+    /*margin: 15px 15px 0px 15px;*/
+    margin-top: 15px;
+    border-radius: 8px;
+    width: 60%;
+    padding: 0; /*10px 0px 15px 59px*/
+    
+    
+    /*prevent iOS from scaling the text to cover post information*/
+    -webkit-text-size-adjust: 100%;
+}
+
+/* Flairs */
+.flair {
+    border: none !important;
+    text-indent: -9999px;
+    overflow: hidden;
+    padding: 0px;
+    background: url(%%flairs%%) no-repeat -9999px -9999px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    border-radius: 8px;
+    width: 40px;
+    height: 40px;
+}
+.link .flair, .entry .tagline .flair {
+    float: left;
+}
+
+.flair-airi-pp { background-position: -1px -1px; }
+.flair-anzu-lk { background-position: -43px -1px; }
+.flair-chieri-yc { background-position: -85px -1px; }
+.flair-fumika-bm { background-position: -1px -43px; }
+.flair-kanako-ww { background-position: -43px -43px; }
+.flair-kirari-gp { background-position: -85px -43px; }
+.flair-miku-cp { background-position: -1px -85px; }
+.flair-minami-nv { background-position: -43px -85px; }
+.flair-mio-som { background-position: -85px -85px; }
+.flair-ranko-dpor { background-position: -127px -1px; }
+.flair-riina-hb { background-position: -127px -43px; }
+.flair-rika-sd { background-position: -127px -85px; }
+.flair-rin-som { background-position: -1px -127px; }
+.flair-uzuki-som { background-position: -43px -127px; }
+.flair-kitty { width: 61px; background-position: -85px -127px; }
