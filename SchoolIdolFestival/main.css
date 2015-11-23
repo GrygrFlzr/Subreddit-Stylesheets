@@ -10,12 +10,14 @@
     -webkit-order: -2;
             order: -2;
 }
-.id-t3_3sv9cq, .id-t3_3pr7it {
+
+.id-t3_3sv9cq,
+.id-t3_3pr7it {
     -webkit-order: -1;
             order: -1;
 }
-
-.id-t3_3sv9cq>.rank, .id-t3_3pr7it>.rank {
+.id-t3_3sv9cq>.rank,
+.id-t3_3pr7it>.rank {
     visibility: hidden;
 }
 
@@ -475,130 +477,154 @@ div.content {
     float:left;
 }
 
-/*FLAIR ICON*/
+/* Flair Sheet 1 */
+.flair-Aeli { background-position: -1px -1px; }
+.flair-Ahanayo { background-position: -43px -1px; }
+.flair-Ahonoka { background-position: -85px -1px; }
+.flair-Akanata { background-position: -127px -1px; }
+.flair-Akotori { background-position: -169px -1px; }
+.flair-Amaki { background-position: -211px -1px; }
+.flair-Anico { background-position: -253px -1px; }
+.flair-Anozomi { background-position: -295px -1px; }
+.flair-Arin { background-position: -337px -1px; }
+.flair-Aumi { background-position: -379px -1px; }
+.flair-Beli { background-position: -1px -43px; }
+.flair-Bhanayo { background-position: -43px -43px; }
+.flair-Bhonoka { background-position: -85px -43px; }
+.flair-Bkotori { background-position: -127px -43px; }
+.flair-Bmaki { background-position: -169px -43px; }
+.flair-Bnico { background-position: -211px -43px; }
+.flair-Bnozomi { background-position: -253px -43px; }
+.flair-Brin { background-position: -295px -43px; }
+.flair-Bumi { background-position: -337px -43px; }
+.flair-Celi { background-position: -379px -43px; }
+.flair-Chanayo { background-position: -1px -85px; }
+.flair-Chonoka { background-position: -43px -85px; }
+.flair-Ckotori { background-position: -85px -85px; }
+.flair-Cmaki { background-position: -127px -85px; }
+.flair-Cnico { background-position: -169px -85px; }
+.flair-Cnozomi { background-position: -211px -85px; }
+.flair-Crin { background-position: -253px -85px; }
+.flair-Cumi { background-position: -295px -85px; }
+.flair-Weli { background-position: -337px -85px; }
+.flair-Whanayo { background-position: -379px -85px; }
+.flair-Whonoka { background-position: -1px -127px; }
+.flair-Wkotori { background-position: -43px -127px; }
+.flair-Wmaki { background-position: -85px -127px; }
+.flair-Wnico { background-position: -127px -127px; }
+.flair-Wnozomi { background-position: -169px -127px; }
+.flair-Wrin { background-position: -211px -127px; }
+.flair-Wumi { background-position: -253px -127px; }
+.flair-Yeli { background-position: -295px -127px; }
+.flair-Yhanayo { background-position: -337px -127px; }
+.flair-Yhonoka { background-position: -379px -127px; }
+.flair-Ykotori { background-position: -1px -169px; }
+.flair-Ymaki { background-position: -43px -169px; }
+.flair-Ynico { background-position: -85px -169px; }
+.flair-Ynozomi { background-position: -127px -169px; }
+.flair-Yrin { background-position: -169px -169px; }
+.flair-Yumi { background-position: -211px -169px; }
+.flair-alpaca { background-position: -253px -169px; }
+.flair-eliF1 { background-position: -295px -169px; }
+.flair-eliF2 { background-position: -337px -169px; }
+.flair-eliF3 { background-position: -379px -169px; }
+.flair-eliw { background-position: -1px -211px; }
+.flair-eliw2 { background-position: -43px -211px; }
+.flair-eri { background-position: -85px -211px; }
+.flair-femalpacaF3 { background-position: -127px -211px; }
+.flair-first { width: 44px; height: 44px; background-position: -169px -211px; }
+.flair-hanayo { background-position: -215px -211px; }
+.flair-hanayoF1 { background-position: -257px -211px; }
+.flair-hanayoF2 { background-position: -299px -211px; }
+.flair-hanayoF3 { background-position: -341px -211px; }
+.flair-hanayow { background-position: -383px -211px; }
+.flair-hanayow2 { background-position: -1px -253px; }
+.flair-honoka { background-position: -43px -253px; }
+.flair-honokaF1 { background-position: -85px -253px; }
+.flair-honokaF2 { background-position: -127px -253px; }
+.flair-honokaF3 { background-position: -215px -253px; }
+.flair-honokaw { background-position: -257px -253px; }
+.flair-honokaw2 { background-position: -299px -253px; }
+.flair-kotori { background-position: -341px -253px; }
+.flair-kotoriF1 { background-position: -383px -253px; }
+.flair-kotoriF2 { background-position: -1px -295px; }
+.flair-kotoriF3 { background-position: -43px -295px; }
+.flair-kotorimom { background-position: -85px -295px; }
+.flair-kotoriw { background-position: -127px -295px; }
+.flair-kotoriw2 { background-position: -169px -295px; }
+.flair-koutaroF2 { background-position: -211px -295px; }
+.flair-maki { background-position: -253px -295px; }
+.flair-makiF1 { background-position: -295px -295px; }
+.flair-makiF2 { background-position: -337px -295px; }
+.flair-makiF3 { background-position: -379px -295px; }
+.flair-makiw { background-position: -1px -337px; }
+.flair-makiw2 { background-position: -43px -337px; }
+.flair-nico { background-position: -85px -337px; }
+.flair-nicoF1 { background-position: -127px -337px; }
+.flair-nicoF2 { background-position: -169px -337px; }
+.flair-nicoF3 { background-position: -211px -337px; }
+.flair-nicow { background-position: -253px -337px; }
+.flair-nicow2 { background-position: -295px -337px; }
+.flair-normalF1 { background-position: -337px -337px; }
+.flair-nozomi { background-position: -379px -337px; }
+.flair-nozomiF1 { background-position: -1px -379px; }
+.flair-nozomiF2 { background-position: -43px -379px; }
+.flair-nozomiF3 { background-position: -85px -379px; }
+.flair-nozomiw { background-position: -127px -379px; }
+.flair-nozomiw2 { background-position: -169px -379px; }
+.flair-rank1 { width: 62px; height: 43px; background-position: -211px -379px; }
+.flair-rank2 { width: 62px; height: 43px; background-position: -275px -379px; }
+.flair-rank3 { width: 66px; height: 43px; background-position: -339px -379px; }
+.flair-rin { background-position: -407px -379px; }
+.flair-rinF1 { background-position: -421px -1px; }
+.flair-rinF2 { background-position: -421px -43px; }
+.flair-rinF3 { background-position: -421px -85px; }
+.flair-rinw { background-position: -421px -127px; }
+.flair-rinw2 { background-position: -421px -169px; }
+.flair-second { width: 44px; height: 44px; background-position: -425px -211px; }
+.flair-third { width: 44px; height: 44px; background-position: -425px -257px; }
+.flair-umi { background-position: -421px -303px; }
+.flair-umiF1 { background-position: -449px -345px; }
+.flair-umiF2 { background-position: -449px -387px; }
+.flair-umiF3 { background-position: -1px -429px; }
+.flair-umiw { background-position: -43px -429px; }
+.flair-umiw2 { background-position: -85px -429px; }
 
-.flair-Aeli{ background-position: 0 0; width: 40px; height: 40px; } 
-.flair-Ahanayo{ background-position: 0 -40px; width: 40px; height: 40px; } 
-.flair-Ahonoka{ background-position: 0 -80px; width: 40px; height: 40px; } 
-.flair-Akanata{ background-position: 0 -120px; width: 40px; height: 40px; } 
-.flair-Akotori{ background-position: 0 -160px; width: 40px; height: 40px; } 
-.flair-Amaki{ background-position: 0 -200px; width: 40px; height: 40px; } 
-.flair-Anico{ background-position: 0 -240px; width: 40px; height: 40px; } 
-.flair-Anozomi{ background-position: 0 -280px; width: 40px; height: 40px; } 
-.flair-Arin{ background-position: 0 -320px; width: 40px; height: 40px; } 
-.flair-Aumi{ background-position: 0 -360px; width: 40px; height: 40px; } 
-.flair-Beli{ background-position: 0 -400px; width: 40px; height: 40px; } 
-.flair-Bhanayo{ background-position: 0 -440px; width: 40px; height: 40px; } 
-.flair-Bhonoka{ background-position: 0 -480px; width: 40px; height: 40px; } 
-.flair-Bkotori{ background-position: 0 -520px; width: 40px; height: 40px; } 
-.flair-Bmaki{ background-position: 0 -560px; width: 40px; height: 40px; } 
-.flair-Bnico{ background-position: 0 -600px; width: 40px; height: 40px; } 
-.flair-Bnozomi{ background-position: 0 -640px; width: 40px; height: 40px; } 
-.flair-Brin{ background-position: 0 -680px; width: 40px; height: 40px; } 
-.flair-Bumi{ background-position: 0 -720px; width: 40px; height: 40px; } 
-.flair-Celi{ background-position: 0 -760px; width: 40px; height: 40px; } 
-.flair-Chanayo{ background-position: 0 -800px; width: 40px; height: 40px; } 
-.flair-Chonoka{ background-position: 0 -840px; width: 40px; height: 40px; } 
-.flair-Ckotori{ background-position: 0 -880px; width: 40px; height: 40px; } 
-.flair-Cmaki{ background-position: 0 -920px; width: 40px; height: 40px; } 
-.flair-Cnico{ background-position: 0 -960px; width: 40px; height: 40px; } 
-.flair-Cnozomi{ background-position: 0 -1000px; width: 40px; height: 40px; } 
-.flair-Crin{ background-position: 0 -1040px; width: 40px; height: 40px; } 
-.flair-Cumi{ background-position: 0 -1080px; width: 40px; height: 40px; } 
-.flair-Weli{ background-position: 0 -1120px; width: 40px; height: 40px; } 
-.flair-Whanayo{ background-position: 0 -1160px; width: 40px; height: 40px; } 
-.flair-Whonoka{ background-position: 0 -1200px; width: 40px; height: 40px; } 
-.flair-Wkotori{ background-position: 0 -1240px; width: 40px; height: 40px; } 
-.flair-Wmaki{ background-position: 0 -1280px; width: 40px; height: 40px; } 
-.flair-Wnico{ background-position: 0 -1320px; width: 40px; height: 40px; } 
-.flair-Wnozomi{ background-position: 0 -1360px; width: 40px; height: 40px; } 
-.flair-Wrin{ background-position: 0 -1400px; width: 40px; height: 40px; } 
-.flair-Wumi{ background-position: 0 -1440px; width: 40px; height: 40px; } 
-.flair-Yeli{ background-position: 0 -1480px; width: 40px; height: 40px; } 
-.flair-Yhanayo{ background-position: 0 -1520px; width: 40px; height: 40px; } 
-.flair-Yhonoka{ background-position: 0 -1560px; width: 40px; height: 40px; } 
-.flair-Ykotori{ background-position: 0 -1600px; width: 40px; height: 40px; } 
-.flair-Ymaki{ background-position: 0 -1640px; width: 40px; height: 40px; } 
-.flair-Ynico{ background-position: 0 -1680px; width: 40px; height: 40px; } 
-.flair-Ynozomi{ background-position: 0 -1720px; width: 40px; height: 40px; } 
-.flair-Yrin{ background-position: 0 -1760px; width: 40px; height: 40px; } 
-.flair-Yumi{ background-position: 0 -1800px; width: 40px; height: 40px; } 
-.flair-alpaca{ background-position: 0 -1840px; width: 40px; height: 40px; } 
-.flair-eliw{ background-position: 0 -1880px; width: 40px; height: 40px; } 
-.flair-eliw2{ background-position: 0 -1920px; width: 40px; height: 40px; } 
-.flair-eri{ background-position: 0 -1960px; width: 40px; height: 40px; } 
-.flair-first{ background-position: -40px 0; width: 44px; height: 44px; } 
-.flair-hanayo{ background-position: -40px -44px; width: 40px; height: 40px; } 
-.flair-hanayow{ background-position: -40px -84px; width: 40px; height: 40px; } 
-.flair-hanayow2{ background-position: -40px -124px; width: 40px; height: 40px; } 
-.flair-honoka{ background-position: -40px -164px; width: 40px; height: 40px; } 
-.flair-honokaw{ background-position: -40px -204px; width: 40px; height: 40px; } 
-.flair-honokaw2{ background-position: -40px -244px; width: 40px; height: 40px; } 
-.flair-kotori{ background-position: -40px -284px; width: 40px; height: 40px; } 
-.flair-kotorimom{ background-position: -40px -324px; width: 40px; height: 40px; } 
-.flair-kotoriw{ background-position: -40px -364px; width: 40px; height: 40px; } 
-.flair-kotoriw2{ background-position: -40px -404px; width: 40px; height: 40px; } 
-.flair-maki{ background-position: -40px -444px; width: 40px; height: 40px; } 
-.flair-makiw{ background-position: -40px -484px; width: 40px; height: 40px; } 
-.flair-makiw2{ background-position: -40px -524px; width: 40px; height: 40px; } 
-.flair-nico{ background-position: -40px -564px; width: 40px; height: 40px; } 
-.flair-nicow{ background-position: -40px -604px; width: 40px; height: 40px; } 
-.flair-nicow2{ background-position: -40px -644px; width: 40px; height: 40px; } 
-.flair-nozomi{ background-position: -40px -684px; width: 40px; height: 40px; } 
-.flair-nozomiw{ background-position: -40px -724px; width: 40px; height: 40px; } 
-.flair-nozomiw2{ background-position: -40px -764px; width: 40px; height: 40px; } 
-.flair-rank1{ background-position: -40px -804px; width: 62px; height: 43px; } 
-.flair-rank2{ background-position: -40px -847px; width: 62px; height: 43px; } 
-.flair-rank3{ background-position: -40px -890px; width: 66px; height: 43px; } 
-.flair-rin{ background-position: -40px -933px; width: 40px; height: 40px; } 
-.flair-rinw{ background-position: -40px -973px; width: 40px; height: 40px; } 
-.flair-rinw2{ background-position: -40px -1013px; width: 40px; height: 40px; } 
-.flair-second{ background-position: -40px -1053px; width: 44px; height: 44px; } 
-.flair-third{ background-position: -40px -1097px; width: 44px; height: 44px; } 
-.flair-umi{ background-position: -40px -1141px; width: 40px; height: 40px; } 
-.flair-umiw{ background-position: -40px -1181px; width: 40px; height: 40px; } 
-.flair-umiw2{ background-position: -40px -1221px; width: 40px; height: 40px; } 
-
-
-.flair-nozomiF1{ background-position: -43px -1261px; width: 40px; height: 40px; } 
-.flair-nozomiF2{ background-position: -43px -1301px; width: 40px; height: 40px; } 
-.flair-nozomiF3{ background-position: -43px -1341px; width: 40px; height: 40px; } 
-
-.flair-eliF1{ background-position: -43px -1381px; width: 40px; height: 40px; } 
-.flair-eliF2{ background-position: -43px -1421px; width: 40px; height: 40px; } 
-.flair-eliF3{ background-position: -43px -1461px; width: 40px; height: 40px; } 
-
-.flair-nicoF1{ background-position: -43px -1501px; width: 40px; height: 40px; } 
-.flair-nicoF2{ background-position: -43px -1541px; width: 40px; height: 40px; } 
-.flair-nicoF3{ background-position: -43px -1581px; width: 40px; height: 40px; } 
-
-.flair-hanayoF1{ background-position: -43px -1621px; width: 40px; height: 40px; } 
-.flair-hanayoF2{ background-position: -43px -1661px; width: 40px; height: 40px; } 
-.flair-hanayoF3{ background-position: -43px -1701px; width: 40px; height: 40px; } 
-
-.flair-rinF1{ background-position: -43px -1741px; width: 40px; height: 40px; } 
-.flair-rinF2{ background-position: -43px -1781px; width: 40px; height: 40px; } 
-.flair-rinF3{ background-position: -43px -1821px; width: 40px; height: 40px; } 
-
-.flair-makiF1{ background-position: -43px -1862px; width: 40px; height: 40px; } 
-.flair-makiF2{ background-position: -43px -1902px; width: 40px; height: 40px; } 
-.flair-makiF3{ background-position: -43px -1941px; width: 40px; height: 40px; } 
-
-.flair-honokaF1{ background-position: -84px 0; width: 40px; height: 40px; } 
-.flair-honokaF2{ background-position: -80px -41px; width: 40px; height: 40px; } 
-.flair-honokaF3{ background-position: -80px -81px; width: 40px; height: 40px; } 
-
-.flair-umiF1{ background-position: -80px -120px; width: 40px; height: 40px; } 
-.flair-umiF2{ background-position: -80px -160px; width: 40px; height: 40px; } 
-.flair-umiF3{ background-position: -80px -200px; width: 40px; height: 40px; } 
-
-.flair-kotoriF1{ background-position: -80px -240px; width: 40px; height: 40px; } 
-.flair-kotoriF2{ background-position: -80px -280px; width: 40px; height: 40px; } 
-.flair-kotoriF3{ background-position: -80px -320px; width: 40px; height: 40px; } 
-
-.flair-normalF1{ background-position: -80px -360px; width: 40px; height: 40px; } 
-.flair-koutaroF2{ background-position: -80px -400px; width: 40px; height: 40px; } 
-.flair-femalpacaF3{ background-position: -80px -440px; width: 40px; height: 40px; } 
+/* Flair Sheet 2 */
+.flair-sheet2 { background-image: url(%%flairs2%%); border-radius: 50%; }
+.flair-eli-581u { background-position: -1px -1px; }
+.flair-eli-659i { background-position: -43px -1px; }
+.flair-eli-659u { background-position: -85px -1px; }
+.flair-hanayo-506i { background-position: -127px -1px; }
+.flair-hanayo-556i { background-position: -169px -1px; }
+.flair-hanayo-675i { background-position: -1px -43px; }
+.flair-honoka-319i { background-position: -43px -43px; }
+.flair-honoka-452i { background-position: -85px -43px; }
+.flair-honoka-483i { background-position: -127px -43px; }
+.flair-honoka-533i { background-position: -169px -43px; }
+.flair-honoka-600i { background-position: -1px -85px; }
+.flair-honoka-604i { background-position: -43px -85px; }
+.flair-kotori-565i { background-position: -85px -85px; }
+.flair-kotori-634i { background-position: -127px -85px; }
+.flair-kotori-634u { background-position: -169px -85px; }
+.flair-maki-484i { background-position: -1px -127px; }
+.flair-maki-608i { background-position: -43px -127px; }
+.flair-maki-608u { background-position: -85px -127px; }
+.flair-n-koyuki-310i { background-position: -127px -127px; }
+.flair-n-reine-244i { background-position: -169px -127px; }
+.flair-n-ryou-318i { background-position: -1px -169px; }
+.flair-nico-580i { background-position: -43px -169px; }
+.flair-nico-590i { background-position: -85px -169px; }
+.flair-nico-590u { background-position: -127px -169px; }
+.flair-nozomi-367u { background-position: -169px -169px; }
+.flair-nozomi-454i { background-position: -211px -1px; }
+.flair-nozomi-469i { background-position: -211px -43px; }
+.flair-rin-538i { background-position: -211px -85px; }
+.flair-rin-666i { background-position: -211px -127px; }
+.flair-rin-666u { background-position: -211px -169px; }
+.flair-umi-549i { background-position: -1px -211px; }
+.flair-umi-643i { background-position: -43px -211px; }
+.flair-umi-643u { background-position: -85px -211px; }
 
 
 /*Ranks*/
