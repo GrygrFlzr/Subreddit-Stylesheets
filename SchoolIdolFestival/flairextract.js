@@ -14,6 +14,11 @@ var girls = [
 for (var i = 0; i < flairs.length; i++) {
 	var flair = flairs[i];
 	var className = flair.classList[1].substr(6);
+	
+	if (className === 'sheet2') {
+		var className = flair.classList[2].substr(6);
+	}
+	
 	var uid = flair.parentNode.id;
 	//console.log(className + ' #' + uid);
 	
