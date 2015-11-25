@@ -593,6 +593,7 @@ div.content {
 .flair-umiw2 { background-position: -85px -429px; }
 
 /* Flair Sheet 2 */
+.flair-sheet2 { background-image: url(%%flairs2%%); border-radius: 50%; }
 .flair-eli-581u { background-position: -1px -1px; }
 .flair-eli-659i { background-position: -43px -1px; }
 .flair-eli-659u { background-position: -85px -1px; }
