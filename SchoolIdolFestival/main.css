@@ -11,12 +11,12 @@
             order: -2;
 }
 
-.id-t3_3sv9cq,
+.id-t3_3u8jzj,
 .id-t3_3pr7it {
     -webkit-order: -1;
             order: -1;
 }
-.id-t3_3sv9cq>.rank,
+.id-t3_3u8jzj>.rank,
 .id-t3_3pr7it>.rank {
     visibility: hidden;
 }
@@ -31,6 +31,7 @@ Stickied Text
 Subreddit Link Location
 Shadowbox for Banner
 Banner
+Topbar
 Userbar
 Side Box
 
@@ -156,6 +157,12 @@ Spoiler Tag
         -webkit-animation: snow 20s linear infinite;
         animation: snow 20s linear infinite;
     */
+}
+
+/*Topbar*/
+.drop-choices {
+    /* higher layer than logo */
+    z-index: 999;
 }
 
 /*Header and Userbar*/
@@ -395,6 +402,7 @@ div.content {
     top:285px;
     left:40px;
     font-size:14px!important;
+    z-index: -100;
     
     /*this code styles the sticky*/
     color: #555555;
