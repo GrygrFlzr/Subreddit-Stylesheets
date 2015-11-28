@@ -82,7 +82,7 @@ div#RESShortcutsEditContainer {
     background-color: transparent;
     color: #fff;
 }
-.drop-choices {
+.srdrop.drop-choices {
     /* higher layer than logo */
     z-index: 999;
     border: 0;
@@ -91,7 +91,7 @@ div#RESShortcutsEditContainer {
     overflow: hidden;
     background-color: rgba(72,162,225,.95);
 }
-.drop-choices>.choice:hover {
+.srdrop.drop-choices>.choice:hover {
     background-color:rgba(102,192,255,.95);
 }
 
@@ -132,7 +132,9 @@ div#header-bottom-right {
     display: none;
 }
 .sidecontentbox .flair {
+    font-size: 0;
     text-indent: 0;
+    overflow: visible;
     vertical-align: text-top;
     margin-right: 6px;
 }
@@ -217,6 +219,7 @@ div.content {
     border: 0;
     border-radius: 8px;
     text-indent: -9999px;
+    overflow: hidden;
     display: inline-block;
     padding: 0px;
     background: url(%%flairs%%) no-repeat -9999px -9999px;
