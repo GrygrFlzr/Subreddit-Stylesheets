@@ -1,4 +1,6 @@
-/* Header */
+/**
+ * Header
+ */
 #header {
     border: 0;
     height: 200px;
@@ -38,7 +40,9 @@
     width: 450px;
 }
 
-/* Categories */
+/**
+ * Categories
+ */
 .tabmenu li a {
     background-color: #48a2e1;
     background-color: rgba(72,162,225,.85);
@@ -53,7 +57,9 @@
     background-color: #fff;
 }
 
-/* Top bar */
+/**
+ * Top bar
+ */
 #sr-header-area {
     margin-bottom: -18px;
     border: 0;
@@ -89,20 +95,25 @@ div#RESShortcutsEditContainer {
     background-color:rgba(102,192,255,.95);
 }
 
-/* Userbar */
+/**
+ * Userbar
+ */
 div#header-bottom-right {
     /* Fix RES hard-coding dumb values */
     top: inherit;
     bottom: 0;
 }
 
-/* Sidebar */
+/**
+ * Sidebar
+ */
 .morelink {
     font-weight: normal;
     letter-spacing: 0.1px;
     background: #48a2e1;
     border-color: #3781d0;
     border-width: 0 0 2px;
+    border-radius: 2px;
 }
 .morelink a {
     color: #fff;
@@ -120,9 +131,24 @@ div#header-bottom-right {
 .titlebox>.subscribers>.word {
     display: none;
 }
+.sidecontentbox .flair {
+    text-indent: 0;
+    vertical-align: text-top;
+    margin-right: 6px;
+}
+.sidecontentbox .flair:after {
+    font-size: 12px;
+    content: attr(title);
+    display: inline-block;
+    white-space: nowrap;
+    margin-left: 46px;
+    margin-top: 16px;
+    font-style: italic;
+}
 
 
-/* Spoiler Code
+/**
+ * Spoiler Code
  * Usage: [spoiler](#s "up up down down left right left right bee ayy")
  */
 
@@ -153,7 +179,9 @@ a[href="#s"]:active::after,
 }
 
 
-/* Announcement bar */
+/**
+ * Announcement bar
+ */
 div.content {
     margin-top:60px;
 }
@@ -182,16 +210,17 @@ div.content {
     -webkit-text-size-adjust: 100%;
 }
 
-/* Flairs */
+/**
+ * Flairs
+ */
 .flair {
-    border: none !important;
+    border: 0;
+    border-radius: 8px;
     text-indent: -9999px;
-    overflow: hidden;
+    display: inline-block;
     padding: 0px;
     background: url(%%flairs%%) no-repeat -9999px -9999px;
     background-repeat: no-repeat;
-    display: inline-block;
-    border-radius: 8px;
     width: 40px;
     height: 40px;
 }
