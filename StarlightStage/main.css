@@ -97,6 +97,23 @@ div#header-bottom-right {
 }
 
 /* Sidebar */
+.morelink {
+    font-weight: normal;
+    letter-spacing: 0.1px;
+    background: #48a2e1;
+    border-color: #3781d0;
+    border-width: 0 0 2px;
+}
+.morelink a {
+    color: #fff;
+}
+.morelink:hover {
+    background: rgba(102,192,255,1);
+    border-color: #48a2e1;
+}
+.morelink .nub {
+    display: none;
+}
 .titlebox>.subscribers>.number:after {
     content: " Producers";
 }
