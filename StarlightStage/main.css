@@ -138,6 +138,7 @@ div#header-bottom-right {
     overflow: visible;
     vertical-align: text-top;
     margin-right: 6px;
+    margin-bottom: 6px;
 }
 .sidecontentbox .flair:after {
     font-size: 12px;
