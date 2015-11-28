@@ -42,9 +42,15 @@
 .tabmenu li a {
     background-color: #48a2e1;
     background-color: rgba(72,162,225,.85);
-    color: white;
+    color: #fff;
     border-radius: 4px 4px 0 0;
     font-weight: normal;
+}
+.tabmenu li a:hover {
+    background-color: rgba(102,192,255,.85);
+}
+.tabmenu .selected a:hover {
+    background-color: #fff;
 }
 
 /* Top bar */
@@ -52,13 +58,13 @@
     margin-bottom: -18px;
     border: 0;
     background-color: #48a2e1;
-    background-color: rgba(72,162,225,.95);
+    background-color: rgba(72,162,225,.85);
     box-shadow: 0 0 4px black;
 }
 #sr-header-area a,
 #sr-header-area span,
 #sr-header-area .selected a {
-    color: white;
+    color: #fff;
 }
 #sr-more-link {
     background-color: #48a2e1;
@@ -68,7 +74,7 @@ div#RESShortcutsEditContainer {
 }
 #RESShortcutsEditContainer>div {
     background-color: transparent;
-    color: white;
+    color: #fff;
 }
 .drop-choices {
     /* higher layer than logo */
