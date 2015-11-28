@@ -402,7 +402,6 @@ div.content {
     top:285px;
     left:40px;
     font-size:14px!important;
-    z-index: -100;
     
     /*this code styles the sticky*/
     color: #555555;
@@ -410,6 +409,7 @@ div.content {
     margin: 15px 15px 0 15px;
     border-radius: 8px;
     width: 60%;
+    max-height: 34px;
     padding: 10px 0 15px 59px;
     background-image:url(%%rinalert%%);
     background-repeat: no-repeat;
