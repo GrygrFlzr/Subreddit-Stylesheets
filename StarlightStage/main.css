@@ -114,6 +114,7 @@ div#header-bottom-right {
     border-color: #3781d0;
     border-width: 0 0 2px;
     border-radius: 2px;
+    transition: background 0.2s ease 0s;
 }
 .morelink a {
     color: #fff;
@@ -148,6 +149,60 @@ div#header-bottom-right {
     font-style: italic;
 }
 
+/**
+ * Threadlist
+ */
+.content .link {
+    margin: 10px 314px 12px 10px;
+    padding: 5px 0;
+    border-style: solid;
+    border-width: 1px 1px 2px;
+    border-color: #eee #ddd #bdddf4;
+    border-radius: 2px;
+    background-color: #fbfffb;
+    box-shadow: 0 3px 12px rgba(85,85,85,0.1);
+}
+.content .stickied.link {
+    background-color: #fbfffb;
+    border-bottom-color: #cce5cc;
+}
+.content .link .entry .flat-list {
+    opacity: 0.6;
+    transition: opacity 0.2s ease 0s;
+}
+.content .link:hover .entry .flat-list {
+    opacity: 1;
+}
+
+/**
+ * Thread OP
+ */
+.linklisting .usertext-body .md {
+    border-color: #eee;
+}
+
+/**
+ * Comments
+ */
+.nestedlisting {
+    margin-right: 314px;
+}
+.commentarea .thing {
+    margin-bottom: 12px;
+    border-width: 1px 1px 2px;
+    border-style: solid;
+    border-color: #ddd #ddd #bdddf4;
+    border-radius: 4px;
+    padding: 8px 8px 0;
+    box-shadow: 0 3px 12px rgba(85,85,85,0.1);
+}
+.comment .entry .flat-list {
+    opacity: 0.6;
+    transition: opacity 0.2s ease 0s;
+}
+.comment .entry:hover .flat-list {
+    opacity: 1;
+}
 
 /**
  * Spoiler Code
