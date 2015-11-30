@@ -293,17 +293,19 @@ div.content {
 }
 
 .flair-airi-pp { background-position: -1px -1px; }
-.flair-anzu-lk { background-position: -43px -1px; }
-.flair-chieri-yc { background-position: -85px -1px; }
-.flair-fumika-bm { background-position: -1px -43px; }
-.flair-kanako-ww { background-position: -43px -43px; }
-.flair-kirari-gp { background-position: -85px -43px; }
+.flair-akane-bp { background-position: -43px -1px; }
+.flair-anastasia-cs { background-position: -85px -1px; }
+.flair-anzu-lk { background-position: -127px -1px; }
+.flair-chieri-yc { background-position: -1px -43px; }
+.flair-fumika-bm { background-position: -43px -43px; }
+.flair-kanako-ww { background-position: -85px -43px; }
+.flair-kirari-gp { background-position: -127px -43px; }
 .flair-miku-cp { background-position: -1px -85px; }
 .flair-minami-nv { background-position: -43px -85px; }
 .flair-mio-som { background-position: -85px -85px; }
-.flair-ranko-dpor { background-position: -127px -1px; }
-.flair-riina-hb { background-position: -127px -43px; }
-.flair-rika-sd { background-position: -127px -85px; }
-.flair-rin-som { background-position: -1px -127px; }
-.flair-uzuki-som { background-position: -43px -127px; }
-.flair-kitty { width: 61px; background-position: -85px -127px; }
+.flair-ranko-dpor { background-position: -127px -85px; }
+.flair-riina-hb { background-position: -1px -127px; }
+.flair-rika-sd { background-position: -43px -127px; }
+.flair-rin-som { background-position: -85px -127px; }
+.flair-uzuki-som { background-position: -127px -127px; }
+.flair-kitty { width: 61px; background-position: -169px -1px; }
