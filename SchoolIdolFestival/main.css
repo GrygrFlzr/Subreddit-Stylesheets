@@ -182,8 +182,12 @@ Spoiler Tag
 /*Fixing RES*/
 
 #srLeftContainer a,
-#RESShortcuts {
+#RESShortcuts,
+#RESShortcuts a {
     color: #fff;
+}
+#sr-header-area a.subbarlink.RESShortcutsCurrentSub {
+    color: #fff !important;
 }
 div#RESShortcutsEditContainer {
     background-color: transparent;
@@ -201,8 +205,14 @@ div#RESShortcutsEditContainer {
 }
 
 #header-bottom-right{
-    top: 200px;
+    bottom: -25px;
     background-color: transparent;
+}
+
+.res div#header-bottom-right {
+    /* Fix RES hard-coding dumb values */
+    top: inherit;
+    bottom: -30px;
 }
 
 div#userbarToggle, div#userbarToggle.userbarShow {
