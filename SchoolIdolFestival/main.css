@@ -229,11 +229,19 @@ div#userbarToggle, div#userbarToggle.userbarShow {
 
 #header {
     position: relative;
-    height:200px;
-    background: url(%%winterhk15%%) repeat-x scroll 0 12px;
+    height: 200px;
+    background: url(%%winterhk15sm%%) repeat-x scroll center;
     margin: 0 0 35px!important;
-    border-bottom:none;
-    background-position: center; 
+    border-bottom: none;
+}
+
+@media (min-width: 1366px) {
+    #header {
+        background: url(%%winterhk15%%) repeat-x scroll center;
+        /* 50% + 35px won't work because reddit minifies it wrong
+           See https://github.com/reddit/reddit/issues/1042 */
+        background-position: calc(50% - -35px) center;
+    }
 }
 
 /*START STYLE SWITCHER*/
