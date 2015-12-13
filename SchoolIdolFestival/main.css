@@ -1,6 +1,3 @@
-#sr-header-area {background-color:transparent; border-bottom:none;}
-#RESShortcutsEditContainer {background-color:transparent;}
-#RESShortcutsEditContainer div {background-color:transparent;}
 /*virtual sticky*/
 
 #siteTable {
@@ -168,6 +165,20 @@ Spoiler Tag
     z-index: 999;
 }
 
+#sr-header-area {
+    background-color: #bb2327;
+    background-color: rgba(187,35,39,0.7);
+    border: 0;
+    box-shadow: 0 0 4px #400;
+}
+
+#sr-header-area span,
+#sr-header-area .sr-list a,
+#sr-header-area .dropdown .title,
+#sr-header-area .selected a {
+    color: #fff;
+}
+
 /*Header and Userbar*/
 
 #header-img {
@@ -176,7 +187,7 @@ Spoiler Tag
 }
 
 #header-bottom-right{
-    top: 200px!important;
+    bottom: -25px;
     background-color: transparent;
 }
 
