@@ -179,6 +179,20 @@ Spoiler Tag
     color: #fff;
 }
 
+/*Fixing RES*/
+
+#srLeftContainer a,
+#RESShortcuts {
+    color: #fff;
+}
+div#RESShortcutsEditContainer {
+    background-color: transparent;
+}
+#RESShortcutsEditContainer>div {
+    background-color: transparent;
+    color: #fff;
+}
+
 /*Header and Userbar*/
 
 #header-img {
@@ -187,7 +201,7 @@ Spoiler Tag
 }
 
 #header-bottom-right{
-    bottom: -25px;
+    top: 200px;
     background-color: transparent;
 }
 
