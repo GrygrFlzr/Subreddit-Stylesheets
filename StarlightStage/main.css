@@ -82,6 +82,9 @@ div#RESShortcutsEditContainer {
     background-color: transparent;
     color: #fff;
 }
+#sr-header-area a.subbarlink.RESShortcutsCurrentSub {
+    color: #fff !important;
+}
 .srdrop.drop-choices {
     /* higher layer than logo */
     z-index: 999;
