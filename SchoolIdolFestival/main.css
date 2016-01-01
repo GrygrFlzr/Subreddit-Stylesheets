@@ -121,7 +121,7 @@ Spoiler Tag
 .pagename a {
     position:absolute;
     display:inline-block;
-    width:1200px!important;
+    width:1000px!important;
     height:150px!important;
     font-size:0!important;
     z-index: 100;
